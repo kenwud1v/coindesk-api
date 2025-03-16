@@ -15,3 +15,31 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Maven
+target/
+*.log
+*.class
+.mvn/
+.idea/
+*.iml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Spring Boot Devtools
+.spring-boot-devtools/
+
+# Local application settings
+.env
